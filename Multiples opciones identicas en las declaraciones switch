@@ -19,26 +19,28 @@ Escribe una declaración switch para establecer answer con los siguientes rangos
 
 Nota: Necesitarás tener un case para cada número dentro del rango.*/
 
-function seq2uientialSizes(val){
- var answer ="";
- switch(val){
-   case 1:
-   case 2:
-   case 3:
-    answer = "Low";
-    break;
-   case 4:
-   case 5:
-   case 6:
-    answer ="Mid";
-    break;
-   case 7:
-   case 8:
-   case 9:
-    answer = "High"
-    break;
-}
- return answer;
+function sequentialSizes(val) {
+  var answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+    case 2:
+    case 3:
+      return "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      return "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      return "High";
+      break;
+  }
+  // Only change code above this line
+  return answer;
 }
 // Change this value to test
-console.log(sequientialSizes(8));
+sequentialSizes(1);
